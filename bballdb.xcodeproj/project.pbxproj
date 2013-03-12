@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856C248716520C5E00DB5330 /* dbclassmap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 856C248616520C5E00DB5330 /* dbclassmap.plist */; };
+		856D17CA16505472000DD3FE /* UltraliteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 856D17C916505472000DD3FE /* UltraliteDB.m */; };
+		8583D7B3165493150006C328 /* GameDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 8583D7B2165493150006C328 /* GameDetails.m */; };
+		85AA805916479DA4001203B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AA805816479DA4001203B0 /* UIKit.framework */; };
+		85AA805B16479DA4001203B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AA805A16479DA4001203B0 /* Foundation.framework */; };
+		85AA805D16479DA4001203B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AA805C16479DA4001203B0 /* CoreGraphics.framework */; };
+		85AA806316479DA4001203B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85AA806116479DA4001203B0 /* InfoPlist.strings */; };
+		85AA806516479DA4001203B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA806416479DA4001203B0 /* main.m */; };
+		85AA806916479DA4001203B0 /* QuizAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA806816479DA4001203B0 /* QuizAppDelegate.m */; };
+		85AA806B16479DA4001203B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 85AA806A16479DA4001203B0 /* Default.png */; };
+		85AA806D16479DA4001203B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85AA806C16479DA4001203B0 /* Default@2x.png */; };
+		85AA806F16479DA4001203B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85AA806E16479DA4001203B0 /* Default-568h@2x.png */; };
+		85AA807216479DA4001203B0 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA807116479DA4001203B0 /* QuizViewController.m */; };
+		85AA807516479DA4001203B0 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85AA807316479DA4001203B0 /* QuizViewController.xib */; };
+		85AA808516479E7D001203B0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA807C16479E7D001203B0 /* FMDatabase.m */; };
+		85AA808616479E7D001203B0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA807E16479E7D001203B0 /* FMDatabaseAdditions.m */; };
+		85AA808716479E7D001203B0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA808016479E7D001203B0 /* FMDatabasePool.m */; };
+		85AA808816479E7D001203B0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA808216479E7D001203B0 /* FMDatabaseQueue.m */; };
+		85AA808916479E7D001203B0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AA808416479E7D001203B0 /* FMResultSet.m */; };
+		85AA808D1647A0DA001203B0 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AA808C1647A0DA001203B0 /* libsqlite3.dylib */; };
+		85AA80971648D403001203B0 /* bball in Resources */ = {isa = PBXBuildFile; fileRef = 85AA808E1647A198001203B0 /* bball */; };
+		85FC4C3B165D550E003470F3 /* NSFileManager+DirectoryLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FC4C3A165D550E003470F3 /* NSFileManager+DirectoryLocations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		856C248616520C5E00DB5330 /* dbclassmap.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dbclassmap.plist; sourceTree = "<group>"; };
+		856D17C816505472000DD3FE /* UltraliteDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UltraliteDB.h; sourceTree = "<group>"; };
+		856D17C916505472000DD3FE /* UltraliteDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UltraliteDB.m; sourceTree = "<group>"; };
+		8583D7B1165493150006C328 /* GameDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetails.h; sourceTree = "<group>"; };
+		8583D7B2165493150006C328 /* GameDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDetails.m; sourceTree = "<group>"; };
+		85AA805416479DA4001203B0 /* bballdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bballdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AA805816479DA4001203B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85AA805A16479DA4001203B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85AA805C16479DA4001203B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		85AA806016479DA4001203B0 /* bballdb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bballdb-Info.plist"; sourceTree = "<group>"; };
+		85AA806216479DA4001203B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85AA806416479DA4001203B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85AA806616479DA4001203B0 /* bballdb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bballdb-Prefix.pch"; sourceTree = "<group>"; };
+		85AA806716479DA4001203B0 /* QuizAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizAppDelegate.h; sourceTree = "<group>"; };
+		85AA806816479DA4001203B0 /* QuizAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppDelegate.m; sourceTree = "<group>"; };
+		85AA806A16479DA4001203B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		85AA806C16479DA4001203B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		85AA806E16479DA4001203B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85AA807016479DA4001203B0 /* QuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		85AA807116479DA4001203B0 /* QuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		85AA807416479DA4001203B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuizViewController.xib; sourceTree = "<group>"; };
+		85AA807B16479E7D001203B0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		85AA807C16479E7D001203B0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		85AA807D16479E7D001203B0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		85AA807E16479E7D001203B0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		85AA807F16479E7D001203B0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		85AA808016479E7D001203B0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		85AA808116479E7D001203B0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		85AA808216479E7D001203B0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		85AA808316479E7D001203B0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		85AA808416479E7D001203B0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		85AA808C1647A0DA001203B0 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		85AA808E1647A198001203B0 /* bball */ = {isa = PBXFileReference; lastKnownFileType = file; path = bball; sourceTree = "<group>"; };
+		85FC4C38165D54FA003470F3 /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		85FC4C3A165D550E003470F3 /* NSFileManager+DirectoryLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+DirectoryLocations.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85AA805116479DA4001203B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AA808D1647A0DA001203B0 /* libsqlite3.dylib in Frameworks */,
+				85AA805916479DA4001203B0 /* UIKit.framework in Frameworks */,
+				85AA805B16479DA4001203B0 /* Foundation.framework in Frameworks */,
+				85AA805D16479DA4001203B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85AA804916479DA4001203B0 = {
+			isa = PBXGroup;
+			children = (
+				85AA808C1647A0DA001203B0 /* libsqlite3.dylib */,
+				85AA805E16479DA4001203B0 /* bballdb */,
+				85AA805716479DA4001203B0 /* Frameworks */,
+				85AA805516479DA4001203B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85AA805516479DA4001203B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85AA805416479DA4001203B0 /* bballdb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85AA805716479DA4001203B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85AA805816479DA4001203B0 /* UIKit.framework */,
+				85AA805A16479DA4001203B0 /* Foundation.framework */,
+				85AA805C16479DA4001203B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85AA805E16479DA4001203B0 /* bballdb */ = {
+			isa = PBXGroup;
+			children = (
+				85AA808B16479F06001203B0 /* fmdb */,
+				85AA806716479DA4001203B0 /* QuizAppDelegate.h */,
+				85AA806816479DA4001203B0 /* QuizAppDelegate.m */,
+				85AA807016479DA4001203B0 /* QuizViewController.h */,
+				85AA807116479DA4001203B0 /* QuizViewController.m */,
+				85AA807316479DA4001203B0 /* QuizViewController.xib */,
+				85AA805F16479DA4001203B0 /* Supporting Files */,
+				85FC4C38165D54FA003470F3 /* NSFileManager+DirectoryLocations.h */,
+				85FC4C3A165D550E003470F3 /* NSFileManager+DirectoryLocations.m */,
+				856D17C816505472000DD3FE /* UltraliteDB.h */,
+				856D17C916505472000DD3FE /* UltraliteDB.m */,
+				8583D7B1165493150006C328 /* GameDetails.h */,
+				8583D7B2165493150006C328 /* GameDetails.m */,
+			);
+			path = bballdb;
+			sourceTree = "<group>";
+		};
+		85AA805F16479DA4001203B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85AA808E1647A198001203B0 /* bball */,
+				85AA806016479DA4001203B0 /* bballdb-Info.plist */,
+				85AA806116479DA4001203B0 /* InfoPlist.strings */,
+				85AA806416479DA4001203B0 /* main.m */,
+				85AA806616479DA4001203B0 /* bballdb-Prefix.pch */,
+				85AA806A16479DA4001203B0 /* Default.png */,
+				85AA806C16479DA4001203B0 /* Default@2x.png */,
+				85AA806E16479DA4001203B0 /* Default-568h@2x.png */,
+				856C248616520C5E00DB5330 /* dbclassmap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85AA808B16479F06001203B0 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				85AA807F16479E7D001203B0 /* FMDatabasePool.h */,
+				85AA808016479E7D001203B0 /* FMDatabasePool.m */,
+				85AA808116479E7D001203B0 /* FMDatabaseQueue.h */,
+				85AA808216479E7D001203B0 /* FMDatabaseQueue.m */,
+				85AA808316479E7D001203B0 /* FMResultSet.h */,
+				85AA808416479E7D001203B0 /* FMResultSet.m */,
+				85AA807B16479E7D001203B0 /* FMDatabase.h */,
+				85AA807C16479E7D001203B0 /* FMDatabase.m */,
+				85AA807D16479E7D001203B0 /* FMDatabaseAdditions.h */,
+				85AA807E16479E7D001203B0 /* FMDatabaseAdditions.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85AA805316479DA4001203B0 /* bballdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AA807816479DA4001203B0 /* Build configuration list for PBXNativeTarget "bballdb" */;
+			buildPhases = (
+				85AA805016479DA4001203B0 /* Sources */,
+				85AA805116479DA4001203B0 /* Frameworks */,
+				85AA805216479DA4001203B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bballdb;
+			productName = bballdb;
+			productReference = 85AA805416479DA4001203B0 /* bballdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85AA804B16479DA4001203B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Quiz;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joe Seeley";
+			};
+			buildConfigurationList = 85AA804E16479DA4001203B0 /* Build configuration list for PBXProject "bballdb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85AA804916479DA4001203B0;
+			productRefGroup = 85AA805516479DA4001203B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85AA805316479DA4001203B0 /* bballdb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85AA805216479DA4001203B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AA806316479DA4001203B0 /* InfoPlist.strings in Resources */,
+				85AA80971648D403001203B0 /* bball in Resources */,
+				85AA806B16479DA4001203B0 /* Default.png in Resources */,
+				85AA806D16479DA4001203B0 /* Default@2x.png in Resources */,
+				85AA806F16479DA4001203B0 /* Default-568h@2x.png in Resources */,
+				85AA807516479DA4001203B0 /* QuizViewController.xib in Resources */,
+				856C248716520C5E00DB5330 /* dbclassmap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85AA805016479DA4001203B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AA806516479DA4001203B0 /* main.m in Sources */,
+				85AA806916479DA4001203B0 /* QuizAppDelegate.m in Sources */,
+				85AA807216479DA4001203B0 /* QuizViewController.m in Sources */,
+				85AA808516479E7D001203B0 /* FMDatabase.m in Sources */,
+				85AA808616479E7D001203B0 /* FMDatabaseAdditions.m in Sources */,
+				85AA808716479E7D001203B0 /* FMDatabasePool.m in Sources */,
+				85AA808816479E7D001203B0 /* FMDatabaseQueue.m in Sources */,
+				85AA808916479E7D001203B0 /* FMResultSet.m in Sources */,
+				856D17CA16505472000DD3FE /* UltraliteDB.m in Sources */,
+				8583D7B3165493150006C328 /* GameDetails.m in Sources */,
+				85FC4C3B165D550E003470F3 /* NSFileManager+DirectoryLocations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85AA806116479DA4001203B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AA806216479DA4001203B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85AA807316479DA4001203B0 /* QuizViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AA807416479DA4001203B0 /* en */,
+			);
+			name = QuizViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85AA807616479DA4001203B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85AA807716479DA4001203B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85AA807916479DA4001203B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bballdb/bballdb-Prefix.pch";
+				INFOPLIST_FILE = "bballdb/bballdb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85AA807A16479DA4001203B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bballdb/bballdb-Prefix.pch";
+				INFOPLIST_FILE = "bballdb/bballdb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85AA804E16479DA4001203B0 /* Build configuration list for PBXProject "bballdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AA807616479DA4001203B0 /* Debug */,
+				85AA807716479DA4001203B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AA807816479DA4001203B0 /* Build configuration list for PBXNativeTarget "bballdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AA807916479DA4001203B0 /* Debug */,
+				85AA807A16479DA4001203B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85AA804B16479DA4001203B0 /* Project object */;
+}
